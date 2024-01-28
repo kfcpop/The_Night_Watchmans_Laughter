@@ -16,21 +16,14 @@ public class EnemyMoveAI : MonoBehaviour
 
     private bool runningAway = false;
 
-    public Animator anim;
-
      
     // Start is called before the first frame update
     void Start()
     {
-        anim = this.transform.GetChild(0).GetComponent<Animator>();
-        anim.SetBool("IsWalk", true); 
-
         graveStone = GameObject.FindWithTag("Grave").transform;
         agent = GetComponent<NavMeshAgent>();
 
         exitGate = GameObject.FindWithTag("Gate").transform;
-
-
     }
 
     // Update is called once per frame
@@ -66,9 +59,6 @@ public class EnemyMoveAI : MonoBehaviour
 
     private void StartDigging()
     {
-        anim.SetBool("IsWalk", false);
-        anim.SetBool("IsDig", true);
-
         Digging digging = this.GetComponent<Digging>();
         digging.StartDigging();
         Debug.Log("enemy made it to point A");
@@ -76,8 +66,6 @@ public class EnemyMoveAI : MonoBehaviour
 
     public void RunToExit()
     {
-        anim.SetBool("IsDig", false);
-        anim.SetBool("IsRun", true); 
         runningAway = true;
     }
 }

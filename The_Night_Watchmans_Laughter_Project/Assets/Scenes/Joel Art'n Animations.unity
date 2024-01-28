@@ -315,6 +315,63 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &4273200783882144579
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1490614779336804834, guid: 815d1ef3b3eb7af47802f00f4b1df452, type: 3}
+      propertyPath: m_Name
+      value: Grave Robber
+      objectReference: {fileID: 0}
+    - target: {fileID: 6045812318666305065, guid: 815d1ef3b3eb7af47802f00f4b1df452, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6045812318666305065, guid: 815d1ef3b3eb7af47802f00f4b1df452, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6045812318666305065, guid: 815d1ef3b3eb7af47802f00f4b1df452, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6045812318666305065, guid: 815d1ef3b3eb7af47802f00f4b1df452, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6045812318666305065, guid: 815d1ef3b3eb7af47802f00f4b1df452, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6045812318666305065, guid: 815d1ef3b3eb7af47802f00f4b1df452, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6045812318666305065, guid: 815d1ef3b3eb7af47802f00f4b1df452, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6045812318666305065, guid: 815d1ef3b3eb7af47802f00f4b1df452, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6045812318666305065, guid: 815d1ef3b3eb7af47802f00f4b1df452, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6045812318666305065, guid: 815d1ef3b3eb7af47802f00f4b1df452, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 815d1ef3b3eb7af47802f00f4b1df452, type: 3}
 --- !u!1001 &5950778267524267869
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -372,67 +429,10 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9369227a8126ff64a8e95e4de340a973, type: 3}
---- !u!1001 &8216403457954646675
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1310912749964936186, guid: 38435a0f03ad3a8488e481585d62c470, type: 3}
-      propertyPath: m_Name
-      value: Grave Robber
-      objectReference: {fileID: 0}
-    - target: {fileID: 2254960337604104722, guid: 38435a0f03ad3a8488e481585d62c470, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2254960337604104722, guid: 38435a0f03ad3a8488e481585d62c470, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2254960337604104722, guid: 38435a0f03ad3a8488e481585d62c470, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2254960337604104722, guid: 38435a0f03ad3a8488e481585d62c470, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2254960337604104722, guid: 38435a0f03ad3a8488e481585d62c470, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2254960337604104722, guid: 38435a0f03ad3a8488e481585d62c470, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2254960337604104722, guid: 38435a0f03ad3a8488e481585d62c470, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2254960337604104722, guid: 38435a0f03ad3a8488e481585d62c470, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2254960337604104722, guid: 38435a0f03ad3a8488e481585d62c470, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2254960337604104722, guid: 38435a0f03ad3a8488e481585d62c470, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 38435a0f03ad3a8488e481585d62c470, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 238716438}
   - {fileID: 1509941927}
-  - {fileID: 8216403457954646675}
+  - {fileID: 4273200783882144579}
