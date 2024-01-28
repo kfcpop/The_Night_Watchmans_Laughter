@@ -246,7 +246,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &73981389
 Transform:
   m_ObjectHideFlags: 0
@@ -551,6 +551,7 @@ GameObject:
   m_Component:
   - component: {fileID: 239494449}
   - component: {fileID: 239494448}
+  - component: {fileID: 239494450}
   m_Layer: 0
   m_Name: Powerup
   m_TagString: Enemy
@@ -573,7 +574,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -595,6 +596,18 @@ Transform:
   - {fileID: 157816870}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &239494450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 239494447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9dd06cf0022d2641a49a027363389aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &274959894
 GameObject:
   m_ObjectHideFlags: 0
@@ -776,6 +789,7 @@ GameObject:
   m_Component:
   - component: {fileID: 554876676}
   - component: {fileID: 554876677}
+  - component: {fileID: 554876678}
   m_Layer: 5
   m_Name: Spirit Meter UI
   m_TagString: Untagged
@@ -855,6 +869,20 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &554876678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 554876675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3241353741dc6d348ba54bc1c5d1a2d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spiritMeterUI: {fileID: 554876677}
+  playerSpirit: {fileID: 1113773147}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1181,7 +1209,6 @@ GameObject:
   - component: {fileID: 946144911}
   - component: {fileID: 946144914}
   - component: {fileID: 946144913}
-  - component: {fileID: 946144912}
   m_Layer: 5
   m_Name: Spirit Meter Bar
   m_TagString: Untagged
@@ -1208,20 +1235,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0.000030517578, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &946144912
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 946144910}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3241353741dc6d348ba54bc1c5d1a2d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spiritMeterUI: {fileID: 554876677}
-  playerSpirit: {fileID: 1113773147}
 --- !u!114 &946144913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1447,7 +1460,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   curSpirt: 0
   maxSpirt: 100
-  spiritMeter: {fileID: 946144912}
+  spiritMeter: {fileID: 554876678}
   _delayTimer: 0
 --- !u!1 &1114675117
 GameObject:
