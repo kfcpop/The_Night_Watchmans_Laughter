@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 32b8c912e1c88c24d93779e14dc87d13
+guid: 1f3f383547fb6f3498b2788067cb4a8f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -108,40 +108,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Hot_Fries
-      rect:
-        serializedVersion: 2
-        x: 101
-        y: 4
-        width: 299
-        height: 492
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f57a800894fc9ec4a916dcbf04d044fd
-      internalID: 129611624
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 8faaf0018a5077248a3e769f1d87dec7
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Hot_Fries: 129611624
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

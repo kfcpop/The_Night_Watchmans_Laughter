@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 32b8c912e1c88c24d93779e14dc87d13
+guid: 3f4adc6455ee31a4a9cc96c51781b97b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,22 +110,22 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hot_Fries
+      name: Night Watchman Laughing_0
       rect:
         serializedVersion: 2
-        x: 101
-        y: 4
-        width: 299
-        height: 492
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 632
+        y: 452
+        width: 1065
+        height: 1107
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f57a800894fc9ec4a916dcbf04d044fd
-      internalID: 129611624
+      spriteID: b64e0e68d0fa40844bf33d35dd8d455a
+      internalID: 978812587
       vertices: []
       indices: 
       edges: []
@@ -133,7 +133,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 8faaf0018a5077248a3e769f1d87dec7
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -141,7 +141,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Hot_Fries: 129611624
+      Night Watchman Laughing_0: 978812587
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
