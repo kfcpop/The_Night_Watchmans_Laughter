@@ -11,8 +11,7 @@ public class Spirit : MonoBehaviour
     private SpiritMeter spiritMeter;
 
     [SerializeField]
-    private float _inputDelayTime;
-    private float _isInputOnDelay;
+    private float _delayTimer;
 
     // Start is called before the first frame update
     void Start()
@@ -23,18 +22,21 @@ public class Spirit : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-    if (Input.GetButtonDown("Scream!") && curSpirt > 0 && _inputDelayTime < Time.time)
+        if (_delayTimer > 0)
         {
-            _inputDelayTime = Time.time + _isInputOnDelay; 
-            usingSpirit(5);
+            _delayTimer -= Time.deltaTime;
+        }
+
+        while (Input.GetButtonDown("Scream!") && curSpirt > 0 && _delayTimer <=0)
+        {
+            _delayTimer = 0.5f;
+            usingSpirit(10);
             Debug.Log("Is repecting"); 
         }
     }
 
     public void usingSpirit(int sp)
     {
-        _isInputOnDelay = Time.time + _inputDelayTime; 
-
         curSpirt -= sp;
         spiritMeter.SetSpirit(curSpirt);
     }
